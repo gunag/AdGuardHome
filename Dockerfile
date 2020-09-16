@@ -70,7 +70,7 @@ RUN /opt/adguardhome/AdGuardHome --version \
   && chown -R nobody: /opt/adguardhome \
   && setcap 'cap_net_bind_service=+eip' /opt/adguardhome/AdGuardHome
 
-EXPOSE 53/tcp 53/udp 67/udp 68/udp 80/tcp 443/tcp 853/tcp 3000/tcp
+EXPOSE 53/tcp 53/udp 67/udp 68/udp 80/tcp 443/tcp 853/tcp 1313/tcp 1313/udp 3000/tcp
 WORKDIR /opt/adguardhome/work
 VOLUME ["/opt/adguardhome/conf", "/opt/adguardhome/work"]
 
