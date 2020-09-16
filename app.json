@@ -1,0 +1,8 @@
+{
+  "name": "gunag",
+  "description": "Deploy guna's adguard to Heroku.",
+  "keywords": ["dns over https"],
+  "website": "https://github.com/gunag/AdGuardHome",
+  "repository": "https://github.com/gunag/AdGuardHome",
+  "stack": "container"
+ }
